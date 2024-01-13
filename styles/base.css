@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Zeyada&display=swap');
+
+
+body {
+    font-family:'Zeyada', 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    margin:auto;
+    width:100%;
+    background-color: #CF8E80;
+}
+
+h1 {
+   font-size: 40px; 
+}
+
+header {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    border-bottom: dotted;
+    background-color: #FCB5B5;
+    justify-content: center;
+}
+
+main {
+    font-family:'Comic Neue', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    
+}
+
+nav {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left:0px;
+}
+h2 {
+    background-color: #916953;
+    padding:7px;
+    font-size: 30px;
+}
+.card {
+    display: grid;
+    font-size: 20px;
+    justify-content: space-evenly;
+    /*margin-bottom: 30px;*/
+    background-color: whitesmoke;
+}
+h3 {
+    border-bottom: dotted;
+    font-size: 25px;
+}
+
+section {
+    display: grid;
+    font-size: 11px;
+    grid-column: 100%;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 75px;
+    height: 100px;
+    margin-top: 9px;
+
+}
