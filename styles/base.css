@@ -58,12 +58,12 @@ h2 {
 h3 {
     border-bottom: dotted;
     font-size: 25px;
+    margin: 0rem;
 }
 
 section {
     display: grid;
     font-size: 11px;
-    margin-bottom: 30px;
 }
 
 img {
