@@ -9,6 +9,10 @@ footer {
 	margin: 0 auto;
 }
 
+section{
+	padding:1rem;
+}
+
 .banner {
 	padding: 1rem;
 	background-color: #eee;
