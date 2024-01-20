@@ -1,12 +1,30 @@
-@media screen and (min-width:500px)
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-{header{
-    content: white;
-    background-color: black;
+body {
+    font-family: Roboto, 'Times New Roman', Times, serif;
 }
-    
+
+header, main, footer{
+    max-width: 640px;
+    margin: 1rem auto;
+    border:1px tan;
+    padding: 1rem;
+    background-color: rgb(1, 69, 128);
+}
 
 main{
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1rem;
 }
+section{
+    padding:1rem;
+    background-color: tan;
+}
+
+h1{
+    color: aliceblue;
+}
+footer{
+    color: aliceblue;
 }
