@@ -8,5 +8,10 @@
         grid-template-columns: 1fr 1fr;
 
     }
+    nav {
+        display: block;
+        flex: 1 1 100%;
+
+    }
 
 }
