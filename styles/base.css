@@ -20,7 +20,6 @@ header {
     display: flex;
     gap: 40px;
     text-align: center;
-    border-bottom: dotted;
     background-color: #FCB5B5;
     justify-content: center;
 }
@@ -57,7 +56,7 @@ h2 {
     background-color: whitesmoke;
 }
 h3 {
-    border-bottom: dotted;
+    border-bottom: solid;
     font-size: 25px;
     margin-top:1rem;
 }
