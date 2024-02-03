@@ -1,0 +1,13 @@
+@media screen and (min-width: 500px) {
+nav a{
+    display: block;
+    padding: 15px;
+}
+
+nav,footer{
+    flex-direction: column;
+}
+main{
+    grid-template-columns: 1fr 1fr;
+}
+}
